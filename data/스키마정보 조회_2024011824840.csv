@@ -1,0 +1,18 @@
+﻿번호,컬럼명,데이터 유형,데이터 사이즈,NotNull 여부,PK 여부,컬럼설명
+1,invs_yr,varchar,4,NO,NO,조사년도
+2,invs_dsrt,varchar,100,NO,NO,조사차수
+3,invs_area_nm,varchar,100,NO,NO,조사지역명
+4,dnf_src_nm,varchar,100,YES,NO,국내외기인명
+5,qtmt_nm,varchar,50,YES,NO,재질명
+6,iem_nm,varchar,100,YES,NO,항목명
+7,iem_cnt,numeric,15,YES,NO,항목수
+8,meter_per_iem_cnt,numeric,"15,2",YES,NO,미터당항목수
+9,adm_zn_nm,varchar,100,YES,NO,행정구역명
+10,qtmt_cd,varchar,6,YES,NO,재질코드
+11,iem_cd,varchar,20,NO,NO,항목코드
+12,invs_ymd,varchar,8,YES,NO,조사일자
+13,cst_nm,varchar,100,YES,NO,연안명
+14,str_la,numeric,"17,15",YES,NO,시작위도
+15,str_lo,numeric,"18,15",YES,NO,시작경도
+16,end_la,numeric,"17,15",YES,NO,종료위도
+17,end_lo,numeric,"18,15",YES,NO,종료경도
